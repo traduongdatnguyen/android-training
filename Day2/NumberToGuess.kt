@@ -33,6 +33,7 @@ fun main() {
     println("Welcome to the number guess game")
     print("Please guess a number between 1 and 10: ")
     var intGuess: Int
+
     do {
         val guess: String = readLine() ?: ""
         intGuess = guess.toInt()

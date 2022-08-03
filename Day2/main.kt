@@ -12,6 +12,7 @@ fun Kilometres(number: Int) {
         println("ok")
     }
 }
+
 fun factorial(number: Int) {
     var factorial = 1
     if (number == 0 || number == 1) println("$number! factorial is 1") else if(number > 1){

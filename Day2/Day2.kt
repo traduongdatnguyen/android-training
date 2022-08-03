@@ -57,6 +57,7 @@ fun main(){
     println(myHigherOrderFunction(number,::tripler))
 
 
+
     ///
     val dollarsToSterling = curry(0.77, ::convert)
     println(dollarsToSterling(5.0))
